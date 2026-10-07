@@ -60,3 +60,12 @@ repeating-linear-gradient(90deg,#ead4a4 0 3px,#e6cc98 4px 7px)}
 .final-call{background:radial-gradient(circle at 50% 20%,#7d356e55,transparent 45%),linear-gradient(#130d18,#09070b);color:#f2e2c5;border-top:1px solid #a64d29;border-bottom:1px solid #5d3268;padding-top:100px;padding-bottom:100px}
 .final-call h2{color:#f0d7a7;text-shadow:3px 4px 0 #000}.final-call>p:not(.eyebrow){max-width:720px;margin:0 auto;line-height:1.8}.final-call .ghost{border-color:#8a3ca1}
 @media(max-width:760px){.nav-cta{margin:0}.town-strip{grid-template-columns:1fr}.town-strip div{min-height:110px;border-right:0;border-bottom:1px solid #38213e;padding:25px 18px}.final-call{padding-top:70px;padding-bottom:70px}}
+
+
+/* Shared cinematic identity for event and application pages */
+.page-atmosphere{min-height:92px;background:radial-gradient(circle at 50% 120%,#7b346e55,transparent 55%),linear-gradient(180deg,#100b16,#080609);border-bottom:1px solid #a64d29;color:#dca25b;display:flex;align-items:center;justify-content:center;gap:22px;font:700 10px Montserrat,Arial;letter-spacing:4px;text-align:center}
+.page-atmosphere span{font-size:31px;color:#e8c28c}.page-atmosphere i{font-size:18px;color:#e86121}.page-atmosphere b{font-weight:900}
+.page-signoff{background:radial-gradient(circle at 50% 0,#6b2b8438,transparent 50%),#080609;color:#dfc9a2;text-align:center;padding:36px 20px;border-top:2px solid #b64f24}
+.page-signoff span,.page-signoff strong,.page-signoff small{display:block}.page-signoff span{font-size:35px}.page-signoff strong{font:24px 'Rye',Georgia,serif;color:#ef7629;margin:5px 0}.page-signoff small{font-size:9px;letter-spacing:3px}
+body:has(.page-atmosphere) main{position:relative}body:has(.page-atmosphere) main:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#6b2b8408,transparent 20% 80%,#f18a1808)}
+@media(max-width:760px){.page-atmosphere{min-height:75px;gap:12px;letter-spacing:2px}.page-atmosphere span{font-size:24px}}
