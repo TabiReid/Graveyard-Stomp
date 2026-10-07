@@ -51,3 +51,12 @@ repeating-linear-gradient(90deg,#ead4a4 0 3px,#e6cc98 4px 7px)}
 .final-mark{background:#080609;color:#e4c493;text-align:center;padding:34px 20px 28px;border-top:1px solid #a74b25}.final-mark span,.final-mark b,.final-mark small{display:block}.final-mark span{font-size:38px}.final-mark b{font-family:'Rye',serif;color:#ef7729;font-size:25px;margin:5px}.final-mark small{letter-spacing:4px;font-size:9px}
 .faq-list{max-width:850px;margin:35px auto;text-align:left}.faq-list details{border-bottom:1px solid #9c805f;padding:15px 3px}.faq-list summary{cursor:pointer;font-weight:900;color:#54255f}.faq-list p{line-height:1.65}
 @media(max-width:760px){.hero-copy{padding:35px 10px 70px}.hero-copy:before,.hero-copy:after{display:none}.hero{min-height:86vh}.tagline{letter-spacing:2px}.events{padding-top:75px;padding-bottom:75px}}
+
+
+.nav-cta{background:#e86422;color:#0a070b!important;padding:10px 14px;margin-top:-10px;margin-bottom:-10px;box-shadow:3px 3px 0 #000;border:1px solid #ff9a47}
+.town-strip{padding:0;background:#080609;color:#ead6b0;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #a64d29;border-bottom:1px solid #5b2d68}
+.town-strip div{min-height:145px;padding:35px 24px;display:flex;flex-direction:column;justify-content:center;border-right:1px solid #38213e;background:radial-gradient(circle at 50% 120%,#75335e44,transparent 55%)}
+.town-strip div:last-child{border-right:0}.town-strip span{font:12px 'Special Elite',serif;letter-spacing:3px;color:#e66d2b}.town-strip b{font:clamp(19px,2.5vw,31px) 'Rye',Georgia,serif;margin-top:9px;text-shadow:3px 3px 0 #000}
+.final-call{background:radial-gradient(circle at 50% 20%,#7d356e55,transparent 45%),linear-gradient(#130d18,#09070b);color:#f2e2c5;border-top:1px solid #a64d29;border-bottom:1px solid #5d3268;padding-top:100px;padding-bottom:100px}
+.final-call h2{color:#f0d7a7;text-shadow:3px 4px 0 #000}.final-call>p:not(.eyebrow){max-width:720px;margin:0 auto;line-height:1.8}.final-call .ghost{border-color:#8a3ca1}
+@media(max-width:760px){.nav-cta{margin:0}.town-strip{grid-template-columns:1fr}.town-strip div{min-height:110px;border-right:0;border-bottom:1px solid #38213e;padding:25px 18px}.final-call{padding-top:70px;padding-bottom:70px}}
