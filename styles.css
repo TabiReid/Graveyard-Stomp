@@ -69,3 +69,10 @@ repeating-linear-gradient(90deg,#ead4a4 0 3px,#e6cc98 4px 7px)}
 .page-signoff span,.page-signoff strong,.page-signoff small{display:block}.page-signoff span{font-size:35px}.page-signoff strong{font:24px 'Rye',Georgia,serif;color:#ef7629;margin:5px 0}.page-signoff small{font-size:9px;letter-spacing:3px}
 body:has(.page-atmosphere) main{position:relative}body:has(.page-atmosphere) main:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#6b2b8408,transparent 20% 80%,#f18a1808)}
 @media(max-width:760px){.page-atmosphere{min-height:75px;gap:12px;letter-spacing:2px}.page-atmosphere span{font-size:24px}}
+
+/* Real hosted artwork, rather than mockup-only styling */
+.hero{background-image:linear-gradient(90deg,#09060dc9 0%,#09060d77 45%,#09060d88 100%),url('assets/tonopah-western-night.svg');background-size:cover;background-position:center center}
+.hero .moon,.hero .desert,.hero .batfield{display:none}
+.hero:after{display:none}
+.hero-copy{background:radial-gradient(ellipse,#09060db8 0 34%,transparent 78%);text-shadow:0 3px 15px #000;max-width:1040px}
+@media(max-width:760px){.hero{background-position:32% center}.hero-copy{background:#09060d9c;padding:55px 12px 75px}}
