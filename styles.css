@@ -76,3 +76,8 @@ body:has(.page-atmosphere) main{position:relative}body:has(.page-atmosphere) mai
 .hero:after{display:none}
 .hero-copy{background:radial-gradient(ellipse,#09060db8 0 34%,transparent 78%);text-shadow:0 3px 15px #000;max-width:1040px}
 @media(max-width:760px){.hero{background-position:32% center}.hero-copy{background:#09060d9c;padding:55px 12px 75px}}
+
+/* Approved cinematic artwork uploaded by organizer */
+.hero{background-image:linear-gradient(90deg,rgba(5,3,9,.10),rgba(5,3,9,.08)),url('assets/graveyard-stomp-hero%20%281%29.jpg')!important;background-size:cover!important;background-position:center center!important}
+.hero .moon,.hero .desert,.hero .batfield{display:none!important}
+@media(max-width:760px){.hero{background-position:40% center!important}}
