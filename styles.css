@@ -101,3 +101,18 @@ body:has(.page-atmosphere) main{position:relative}body:has(.page-atmosphere) mai
 .hero-poster .poster-join{left:52%;width:21%}
 .hero-poster .poster-link:focus-visible{outline:4px solid #fff;outline-offset:3px}
 @media(max-width:760px){.hero-poster{min-height:0;aspect-ratio:1536/914}.hero-poster .poster-link{top:76%}}
+
+
+/* Matching event-page cinematic banners */
+.event-banner{position:relative;isolation:isolate;overflow:hidden;min-height:280px;padding:58px 24px 50px;text-align:center;color:#f8e3bb;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:13px;background:radial-gradient(circle at 50% 38%,#f5a54e 0 7%,#b74f26 9%,#512544 19%,#1b1025 44%,#09070e 85%);border-bottom:3px solid #d46c2e}
+.event-banner:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(115deg,#08050bce 0%,transparent 38%,#09060ed4 100%),repeating-linear-gradient(145deg,transparent 0 27px,#ffffff05 28px 29px)}
+.event-banner:after{content:"";position:absolute;bottom:-42px;left:-5%;width:110%;height:100px;z-index:-1;background:#0b0810;clip-path:polygon(0 65%,8% 32%,17% 60%,25% 17%,36% 55%,45% 25%,55% 57%,65% 22%,75% 55%,85% 19%,100% 61%,100% 100%,0 100%)}
+.event-banner-art{font-size:65px;line-height:1;filter:drop-shadow(0 4px 8px #000);margin-bottom:6px}
+.event-banner p{margin:0;color:#f68a35;letter-spacing:3px;font-size:11px;font-weight:900}
+.event-banner strong{font:clamp(21px,3.3vw,39px)/1.2 'Rye',Georgia,serif;text-shadow:0 5px 5px #000;max-width:850px}
+.event-banner span{font:12px Montserrat,Arial,sans-serif;letter-spacing:3px;font-weight:900;color:#ffbc76}
+.event-pets{background:radial-gradient(circle at 50% 38%,#e9b17d 0 8%,#a4525a 11%,#4d254b 26%,#140e21 70%)}
+.event-market{background:radial-gradient(circle at 50% 38%,#edc97a 0 8%,#b8792e 11%,#512344 26%,#140d1d 70%)}
+.event-words{background:radial-gradient(circle at 50% 38%,#d6a3ae 0 8%,#763b70 11%,#302044 26%,#100c1b 70%)}
+body.detail .detailmain{padding-top:48px}
+@media(max-width:700px){.event-banner{min-height:230px;padding:38px 14px}.event-banner-art{font-size:52px}.event-banner p,.event-banner span{letter-spacing:1.5px;font-size:10px}}
