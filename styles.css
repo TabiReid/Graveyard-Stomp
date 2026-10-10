@@ -91,3 +91,13 @@ body:has(.page-atmosphere) main{position:relative}body:has(.page-atmosphere) mai
 .hero .hero-copy .cta a{visibility:visible!important;display:block!important;flex:1!important;opacity:0!important;height:100%!important;padding:0!important;border:0!important;box-shadow:none!important}
 .hero .stars,.hero .moon,.hero .desert,.hero .batfield{display:none!important}
 @media(max-width:760px){.hero{background-size:100% 100%!important;background-position:center!important}.hero .hero-copy .cta{left:30%!important;right:25%!important;top:78%!important}}
+
+
+/* Final poster hero: crop the baked-in navigation and use only one real navigation bar */
+.hero-poster{display:block;position:relative;width:100%;height:auto;aspect-ratio:1536/914;background:#08060b url('assets/graveyard-stomp-hero%20%281%29.jpg') center bottom / 100% auto no-repeat;border-bottom:2px solid #c76828}
+.hero-poster .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.hero-poster .poster-link{position:absolute;display:block;top:76%;height:9%;z-index:2;border-radius:4px}
+.hero-poster .poster-enter{left:30%;width:21%}
+.hero-poster .poster-join{left:52%;width:21%}
+.hero-poster .poster-link:focus-visible{outline:4px solid #fff;outline-offset:3px}
+@media(max-width:760px){.hero-poster{min-height:0;aspect-ratio:1536/914}.hero-poster .poster-link{top:76%}}
