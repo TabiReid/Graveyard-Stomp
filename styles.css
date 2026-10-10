@@ -81,3 +81,13 @@ body:has(.page-atmosphere) main{position:relative}body:has(.page-atmosphere) mai
 .hero{background-image:linear-gradient(90deg,rgba(5,3,9,.10),rgba(5,3,9,.08)),url('assets/graveyard-stomp-hero%20%281%29.jpg')!important;background-size:cover!important;background-position:center center!important}
 .hero .moon,.hero .desert,.hero .batfield{display:none!important}
 @media(max-width:760px){.hero{background-position:40% center!important}}
+
+
+/* Correct approved poster-style hero: hide duplicate live lettering, preserve accessible links */
+.hero{background-image:url('assets/graveyard-stomp-hero%20%281%29.jpg')!important;background-size:100% 100%!important;background-position:center!important;min-height:0!important;height:auto!important;aspect-ratio:1536/1024!important;padding:0!important;position:relative!important}
+.hero .hero-copy{position:absolute!important;inset:0!important;max-width:none!important;width:100%!important;background:none!important;padding:0!important;margin:0!important;display:block!important;transform:none!important;pointer-events:none!important}
+.hero .hero-copy>*{visibility:hidden!important}
+.hero .hero-copy .cta{visibility:visible!important;position:absolute!important;left:30%!important;right:25%!important;top:78%!important;height:12%!important;display:flex!important;gap:2%!important;pointer-events:auto!important;margin:0!important}
+.hero .hero-copy .cta a{visibility:visible!important;display:block!important;flex:1!important;opacity:0!important;height:100%!important;padding:0!important;border:0!important;box-shadow:none!important}
+.hero .stars,.hero .moon,.hero .desert,.hero .batfield{display:none!important}
+@media(max-width:760px){.hero{background-size:100% 100%!important;background-position:center!important}.hero .hero-copy .cta{left:30%!important;right:25%!important;top:78%!important}}
